@@ -1,0 +1,4 @@
+loopback-next
+loopback
+loopback-cli
+loopback-swagger

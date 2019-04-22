@@ -1,0 +1,16 @@
+jsr352
+jberet-user-guide
+intro-jberet
+jberet-ui
+jberet-jpa-repository
+jberet-wildfly-samples
+jberet-vertx
+jberet-camel
+jberet-support
+jberet-schedule
+jberet-rest
+jberet-tck-porting
+jberet-wildfly
+numbers-chunk
+jberet-simple
+numbers-chunk-thorntail

@@ -1,0 +1,25 @@
+#
+# EmailAliases lets us cope with developers who use more
+# than one address.
+#
+EmailAliases hyper-config/aliases
+
+#
+# EmailMap does the main work of mapping addresses onto
+# employers.
+#
+EmailMap hyper-config/domain-map
+
+#
+# Use GroupMap to map a file full of addresses to the
+# same employer
+#
+GroupMap hyper-config/xorg/group-map-ibm   IBM
+GroupMap hyper-config/xorg/group-map-dah  DAH
+GroupMap hyper-config/xorg/group-map-lseg  LSEG
+GroupMap hyper-config/xorg/group-map-hitachi  Hitachi
+GroupMap hyper-config/xorg/group-map-independent  Intel
+GroupMap hyper-config/xorg/group-map-soramitsu  Soramitsu
+GroupMap hyper-config/xorg/group-map-hitachi  Hitachi
+GroupMap hyper-config/xorg/group-map-hitachi  Hitachi
+GroupMap hyper-config/xorg/group-map-wanda  Wanda

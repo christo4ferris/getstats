@@ -1,0 +1,7 @@
+fcrepo4
+fcrepo-module-auth-webac 
+ontology
+fcrepo-event-ontology
+ldp-testsuite
+fcrepo-webac-ontology
+fcrepo-build-tools 
