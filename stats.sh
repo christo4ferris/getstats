@@ -51,7 +51,7 @@ fi
 
 DEBUG "Cleaning up"
 cd ${BASEDIR}
-rm -rf ${RELEASE} && mkdir ./stats/${RELEASE}
+rm -rf ${RELEASE} && mkdir -p ./stats/${RELEASE}
 mv ${TEMPDIR}/*stats.txt ./stats/${RELEASE}
 mv ${TEMPDIR}/*stats-all.txt ./stats/${RELEASE}
 mv ${TEMPDIR}/*.csv ./stats/${RELEASE}
