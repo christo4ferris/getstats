@@ -5,6 +5,11 @@ function DEBUG {
     [ "$GITDM_DEBUG" == "on" ] && echo "DEBUG: $1"
 }
 
+if [ $# -ne 3 ]; then
+    echo "Usage $0 since-date repo org"
+    exit 1
+fi
+
 # enable/disable debugging output
 GITDM_DEBUG=${GITDM_DEBUG:-"off"}
 
